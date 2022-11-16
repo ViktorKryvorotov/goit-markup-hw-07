@@ -22,7 +22,7 @@
     <header class="header">
       <div class="container header-content">
         <a class="logo" href="index.html"
-          >Web<span class="header-logo__text">Studio</span>
+          >Web<span class="header__logo">Studio</span>
         </a>
         <nav class="main-nav">
           <ul class="main-nav__list">
@@ -30,7 +30,9 @@
               <a class="main-nav__link" href="./index.html">Студія</a>
             </li>
             <li class="main-nav__item">
-              <a class="main-nav__link current" href="./portfolio.html"
+              <a
+                class="main-nav__link main-nav__link--current"
+                href="./portfolio.html"
                 >Портфоліо</a
               >
             </li>
@@ -291,59 +293,59 @@
     <footer class="footer">
       <div class="container footer-container">
         <div>
-          <a class="logo link" href="#"
-            >Web<span class="logo-footer">Studio</span>
+          <a class="logo" href="#"
+            >Web<span class="logo__footer">Studio</span>
           </a>
-          <address>
-            <ul class="list">
-              <li class="list-footer">
+          <address class="address">
+            <ul class="address-list">
+              <li class="address-item">
                 <a
-                  class="footer-address link"
+                  class="address-link__colored"
                   href="https://goo.gl/maps/43y1ShWH6YqDdSyP7"
                   target="_blank"
                   rel="noopener nofollow noreferrer "
                   >м. Київ, пр-т Лесі Українки, 26
                 </a>
               </li>
-              <li class="list-footer">
-                <a class="footer-contacts link" href="mailto:info@devstudio.com"
+              <li class="address-item">
+                <a class="address-link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="list-footer">
-                <a class="footer-contacts link" href="tel:+380961111111"
+              <li class="address-item">
+                <a class="address-link" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-icon">
-          <h2 class="social-title">ПРИЄДНУЙТЕСЬ</h2>
-          <ul class="footer-social-list list">
+        <div class="social-container">
+          <p class="social-title">ПРИЄДНУЙТЕСЬ</p>
+          <ul class="footer-social">
             <li>
-              <a class="footer-social-icon" href="#">
+              <a class="footer-social__icon" href="#">
                 <svg width="20" height="20">
                   <use href="./imges/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="footer-social-icon" href="#">
+              <a class="footer-social__icon" href="#">
                 <svg width="20" height="20">
                   <use href="./imges/sprite.svg#icon-twiter"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="footer-social-icon" href="#">
+              <a class="footer-social__icon" href="#">
                 <svg width="20" height="20">
                   <use href="./imges/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="footer-social-icon" href="#">
+              <a class="footer-social__icon" href="#">
                 <svg width="20" height="20">
                   <use href="./imges/sprite.svg#icon-linkedin"></use>
                 </svg>
@@ -353,20 +355,20 @@
         </div>
         <form class="form-subscribe">
           <div>
-            <label for="subscribe-mail" class="form-subscribe-label">
+            <label for="subscribe-mail" class="form-subscribe__label">
               Підпишіться на розсилку</label
             >
             <input
-              class="footer-input"
+              class="form-subscribe__input"
               name="subscribe-mail"
               id="subscribe-mail"
               type="mail"
               placeholder="E-mail"
             />
           </div>
-          <button class="subscribe-button">
+          <button class="form-subscribe_button">
             Підписатися
-            <svg class="icon-subscribe-button" width="24" height="24">
+            <svg class="form-subscribe__icon" width="24" height="24">
               <use href="./imges/sprite.svg#icon-send"></use>
             </svg>
           </button>
