@@ -450,16 +450,6 @@ flex-basis: calc((100% - 90px) / 4);
     line-height: 1.142;
   
 }
-.footer-container{
-    align-items: baseline;
-    display: flex;
-}
-.footer{
-    padding-bottom: 60px;
-    padding-top: 60px;
-    background-color:var(--hero-footer-background) ;
-}
-
 .address{
     margin-top: 20px;
 }
@@ -536,25 +526,29 @@ flex-basis: calc((100% - 90px) / 4);
 
 .form-subscribe__label {
     display: block;
+    margin-bottom: 20px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--white-color);
-    margin-bottom: 20px;
+    
 
 }
 .form-subscribe__input{
     display: block;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color:var(--white-color);
     width: 358px;
     height: 50px;
     margin: 0;
     padding: 15px 16px;
+
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color:var(--white-color);
+    
     cursor: pointer;
     border: 1px solid #FFFFFF4D;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -573,6 +567,7 @@ flex-basis: calc((100% - 90px) / 4);
     gap: 10px;
     width: 200px;
     padding: 10px 28px;
+    
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
