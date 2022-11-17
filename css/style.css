@@ -519,7 +519,7 @@ flex-basis: calc((100% - 90px) / 4);
 }
 .form-subscribe{
     display: flex;
-    margin-left: 93px;
+    margin-left: auto;
     gap: 12px;
     align-items: flex-end;
 }
