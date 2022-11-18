@@ -1,7 +1,10 @@
 @import"./utils/variables";
 @import"./base/fonts";
-@import"./base/global_style";
+@import"./base/base";
+@import"./utils/visually-hidden";
 @import"./components/header";
+@import"./components/navigation";
+@import"./components/logo";
 @import"./components/hero";
 @import"./components/features";
 @import"./components/production";
@@ -9,4 +12,7 @@
 @import"./components/customers";
 @import"./components/footer";
 @import"./components/form-subscribe";
+@import"./components/backdrop";
 @import"./components/modal";
+@import"./components/filter-button";
+@import"./components/project";

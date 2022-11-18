@@ -469,32 +469,42 @@
         </button>
         <b class="modal-tittle">Залиште свої дані, ми вам передзвонимо</b>
         <form class="form">
-          <div class="form-field">
+          <div class="form__field">
             <label for="name">Ім'я</label>
 
-            <input class="form-input" type="text" name="name" id="name" />
-            <svg class="form-icon" width="18" height="18">
+            <input
+              class="form__field--input"
+              type="text"
+              name="name"
+              id="name"
+            />
+            <svg class="form__field--icon" width="18" height="18">
               <use href="./imges/sprite.svg#icon-person-black"></use>
             </svg>
           </div>
-          <div class="form-field">
+          <div class="form__field">
             <label for="tel">Телефон</label>
-            <input class="form-input" type="tel" name="tel" id="tel" />
-            <svg class="form-icon" width="18" height="18">
+            <input class="form__field--input" type="tel" name="tel" id="tel" />
+            <svg class="form__field--icon" width="18" height="18">
               <use href="./imges/sprite.svg#icon-phone-black"></use>
             </svg>
           </div>
-          <div class="form-field">
+          <div class="form__field">
             <label for="mail">Пошта</label>
-            <input class="form-input" type="email" name="mail" id="mail" />
-            <svg class="form-icon" width="18" height="18">
+            <input
+              class="form__field--input"
+              type="email"
+              name="mail"
+              id="mail"
+            />
+            <svg class="form__field--icon" width="18" height="18">
               <use href="./imges/sprite.svg#icon-email-black"></use>
             </svg>
           </div>
-          <div class="form-field form-field-comment">
+          <div class="form__field form__field--mb">
             <label for="comment">Коментар</label>
             <textarea
-              class="form-comment"
+              class="form__field--comment"
               name="comment"
               id="comment"
               cols="30"

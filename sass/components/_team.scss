@@ -30,15 +30,11 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: var(--white-color);
 
-}
-
-.teammate {
     flex-basis: calc((100% - 90px) / 4);
 
-}
-
-.teammate:last-child {
-    margin-right: 0px;
+    &:last-child {
+        margin-right: 0px;
+    }
 }
 
 .teammate__info {
@@ -84,10 +80,10 @@
     height: 44px;
     padding: 12px;
     border-radius: 50%;
-}
 
-.social-network__icons:hover,
-.social-network__icons:focus {
-    fill: var(--white-color);
-    background-color: var(--akcent-color);
+    &:hover,
+    &:focus {
+            fill: var(--white-color);
+            background-color: var(--akcent-color);
+        }
 }

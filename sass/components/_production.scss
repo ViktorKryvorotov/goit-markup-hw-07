@@ -49,8 +49,8 @@
 
 .production__item {
     flex-basis: calc((100% - 60px) / 3);
-}
 
-.production__item:last-child {
+    &:last-child {
     margin-right: 0px;
+    }
 }
