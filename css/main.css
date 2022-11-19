@@ -237,6 +237,60 @@ img {
   background-color: var(--button-hover);
 }
 
+.form-button {
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 4px;
+  padding: 10px 52px;
+  background-color: var(--akcent-color);
+  color: var(--white-color);
+  cursor: pointer;
+  border-color: transparent;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+.form-button:hover, .form-button:focus {
+  background-color: var(--button-hover);
+}
+
+.form-subscribe_button {
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  width: 200px;
+  padding: 10px 28px;
+  background-color: var(--akcent-color);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+}
+.form-subscribe_button:hover, .form-subscribe_button:focus {
+  background-color: var(--button-hover);
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -634,43 +688,8 @@ img {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.form-subscribe__input:hover,
-.form-subscribe__input:focus {
+.form-subscribe__input:hover, .form-subscribe__input:focus {
   border-color: var(--akcent-color);
-}
-
-.form-subscribe_button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 10px;
-  width: 200px;
-  padding: 10px 28px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: var(--white-color);
-  background-color: var(--akcent-color);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: transparent;
-  cursor: pointer;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-subscribe_button:hover,
-.form-subscribe_button:focus {
-  background-color: var(--button-hover);
 }
 
 .form-subscribe__icon {
@@ -690,7 +709,6 @@ img {
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -834,31 +852,8 @@ img {
   outline-color: var(--akcent-color);
 }
 
-.form-field > label {
+.form__field > label {
   margin-bottom: 4px;
-}
-
-.form-button {
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-top: 30px;
-  width: 200px;
-  border-radius: 4px;
-  padding: 10px 52px;
-  background-color: var(--akcent-color);
-  color: var(--white-color);
-  cursor: pointer;
-  border-color: transparent;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-}
-.form-button:hover, .form-button:focus {
-  background-color: var(--button-hover);
 }
 
 /* чекбокс  */
@@ -939,9 +934,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
-.filter-button:hover,
-.filter-button:focus {
+.filter-button:hover, .filter-button:focus {
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--white-color);
@@ -982,9 +975,7 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
 }
-
-.project-list:hover,
-.project-list:focus {
+.project-list:hover, .project-list:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -1038,9 +1029,7 @@ img {
   height: 100%;
   background-color: var(--akcent-color-transparency);
 }
-
-.works:focus .overlay-hover,
-.works:hover .overlay-hover {
+.works:focus .overlay-hover, .works:hover .overlay-hover {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
