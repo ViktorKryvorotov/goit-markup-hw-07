@@ -293,7 +293,7 @@ img {
 
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 47px;
 }
 
 .features {
@@ -1029,7 +1029,7 @@ img {
   height: 100%;
   background-color: var(--akcent-color-transparency);
 }
-.works:focus .overlay-hover, .works:hover .overlay-hover {
+.project-list:focus .overlay-hover, .project-list:hover .overlay-hover {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
